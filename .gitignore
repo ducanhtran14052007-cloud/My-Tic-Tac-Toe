@@ -17,3 +17,9 @@ results/
 # File tạm hệ thống / IDE
 .vscode/
 .DS_Store
+
+*.pdf
+
+*.txt
+logs/
+log.txt
