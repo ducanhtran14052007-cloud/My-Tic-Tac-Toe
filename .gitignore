@@ -1,0 +1,19 @@
+# Thư mục build và các file thực thi
+build/
+*.exe
+*.o
+*.obj
+
+# File log và cache của Ninja/CMake
+*.log
+.ninja_deps
+.ninja_log
+CMakeCache.txt
+CMakeFiles/
+
+# Ảnh kết quả test không cần thiết
+results/
+
+# File tạm hệ thống / IDE
+.vscode/
+.DS_Store

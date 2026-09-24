@@ -1,0 +1,67 @@
+Tic-tac-toe Game (Version: 0.4.<25022777> by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 09:57:03] Logger initialized!
+[DEBUG] - [2026-05-22 09:57:03] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     true
+  is_help:      false
+}
+[INFO] - [2026-05-22 09:57:03] SDL Renderer initialized!
+[INFO] - [2026-05-22 09:57:03] SDL Interaction initialized!
+[INFO] - [2026-05-22 09:57:03] Infra initialized!
+[INFO] - [2026-05-22 09:57:03] Engine initializing . . .
+[INFO] - [2026-05-22 09:57:04] Engine initialized!
+[INFO] - [2026-05-22 09:57:04] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 09:57:08] user input 'size' = 5
+[DEBUG] - [2026-05-22 09:57:09] user input 'goal' = 3
+[DEBUG] - [2026-05-22 09:57:11] user input 'game mode' = EVE
+[DEBUG] - [2026-05-22 09:57:18] user input 'bot level[0]' = MEDIUM
+[DEBUG] - [2026-05-22 09:57:19] user input 'bot level[1]' = MEDIUM
+[INFO] - [2026-05-22 09:57:19] Board initialized!
+[INFO] - [2026-05-22 09:57:19] [Engine] Game started!
+[INFO] - [2026-05-22 09:57:19] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 09:57:19] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 09:57:19] execution time of [bot#0->getMove()()] = 3.09e-05s
+[DEBUG] - [2026-05-22 09:57:19] player 1 make move to (2, 2)
+[DEBUG] - [2026-05-22 09:57:21] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:57:21] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 09:57:21] execution time of [bot#1->getMove()()] = 1.57e-05s
+[DEBUG] - [2026-05-22 09:57:21] player 2 make move to (1, 2)
+[DEBUG] - [2026-05-22 09:57:22] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:57:22] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 09:57:22] execution time of [bot#0->getMove()()] = 6.7e-06s
+[DEBUG] - [2026-05-22 09:57:22] player 1 make move to (2, 1)
+[DEBUG] - [2026-05-22 09:57:24] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:57:24] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 09:57:24] execution time of [bot#1->getMove()()] = 1.54e-05s
+[DEBUG] - [2026-05-22 09:57:24] player 2 make move to (2, 0)
+[DEBUG] - [2026-05-22 09:57:25] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:57:25] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 09:57:25] execution time of [bot#0->getMove()()] = 8.6e-06s
+[DEBUG] - [2026-05-22 09:57:25] player 1 make move to (1, 1)
+[DEBUG] - [2026-05-22 09:57:27] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:57:27] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 09:57:27] execution time of [bot#1->getMove()()] = 9.5e-06s
+[DEBUG] - [2026-05-22 09:57:27] player 2 make move to (0, 0)
+[DEBUG] - [2026-05-22 09:57:28] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:57:28] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 09:57:28] execution time of [bot#0->getMove()()] = 3.8e-06s
+[DEBUG] - [2026-05-22 09:57:28] player 1 make move to (0, 1)
+[INFO] - [2026-05-22 09:57:30] Player 1 (X) wins at turn 7
+[DEBUG] - [2026-05-22 09:57:30] [Engine] turn done!
+[INFO] - [2026-05-22 09:57:30] [Engine] Game done!
+[INFO] - [2026-05-22 09:57:30] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 09:57:30] [WinLine] cells: (0, 1) (1, 1) (2, 1) 
+[DEBUG] - [2026-05-22 09:57:31] after 7 turns
+[DEBUG] - [2026-05-22 09:57:31] game end with result: player 1 (bot) win!
+[INFO] - [2026-05-22 09:57:31] [Engine] Game ended!
+[INFO] - [2026-05-22 09:57:31] Engine closing . . .
+[INFO] - [2026-05-22 09:57:31] Engine closed!
+[INFO] - [2026-05-22 09:57:31] Engine destroyed!
+[INFO] - [2026-05-22 09:57:31] Infra destroyed!
+[INFO] - [2026-05-22 09:57:31] Logger closing . . .
